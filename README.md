@@ -2,8 +2,8 @@ Sahand Abdollahpour
 
 HSE Professional | Occupational Safety | Ergonomics | Applied Data Science
 
-[LinkedIn](https://www.linkedin.com/in/sahand-abdollahpour-9b57291b/) ·
-[Google Scholar](https://scholar.google.com/citations?user=WOxhmJUAAAAJ)
+[LinkedIn](https://www.linkedin.com/in/sahand-abdollahpour-9b57291b9/) ·
+[Google Scholar](https://scholar.google.com/citations?user=WOxhmJUAAAAJ&hl=en)
 
 ---
 
