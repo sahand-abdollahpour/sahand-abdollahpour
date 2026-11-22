@@ -1,74 +1,67 @@
-Sahand Abdollahpour
+# Sahand Abdollahpour
 
-HSE Professional | Occupational Safety | Ergonomics | Applied Data Science
+**HSE Professional | Occupational Safety | Ergonomics | Applied Data Science**
 
-[LinkedIn](https://www.linkedin.com/in/sahand-abdollahpour-9b57291b9/) ·
-[Google Scholar](https://scholar.google.com/citations?user=WOxhmJUAAAAJ&hl=en) .
-[WorkSafe Evidence Intelligence](https://github.com/sahand-abdollahpour/worksafe-evidence-intelligence)
+[LinkedIn](https://www.linkedin.com/in/sahand-abdollahpour-9b57291b9/) · [Google Scholar](https://scholar.google.com/citations?user=WOxhmJUAAAAJ&hl=en) · [WorkSafe Evidence Intelligence](https://github.com/sahand-abdollahpour/worksafe-evidence-intelligence)
 
 ---
 
 ## Profile
 
-I am an HSE professional with practical experience across multiple industrial environments, including metalworking, pharmaceutical manufacturing, food production, paint, waste management, and concrete-related operations.
+HSE professional with 5+ years of practical experience across industrial environments, including metalworking, pharmaceutical manufacturing, food production, paint, waste management, and concrete-related operations. BSc in Occupational Health and Safety Engineering; MSc in HSE Management.
 
 My professional interests focus on occupational risk assessment, ergonomics, human–machine fit, resilience engineering, and the prevention of work-related injuries.
 
-I am building my Data Science capabilities through structured learning and practical projects, with a particular interest in applying statistical analysis and reproducible computational methods to occupational safety research.
-
-My long-term objective is to bridge **HSE practice, rigorous data analysis, and evidence-informed prevention** to support better-informed decisions in workplace safety.
+I am building my data-science capabilities through practical projects with real occupational-safety data. My goal is to connect **HSE practice, rigorous data analysis, and evidence-informed prevention** to support better-informed decisions in workplace safety.
 
 ## Current Project
 
 ### WorkSafe Evidence Intelligence
 
-*Occupational safety analytics and evidence-informed decision support*
+*Reproducible analysis of severe occupational injury reports*
 
-WorkSafe Evidence Intelligence is a project designed to explore how official occupational safety data can be transformed into reproducible analyses and source-linked prevention control options for HSE professionals and researchers.
+The project analyses the U.S. OSHA Severe Injury Reports dataset (105,996 reported records, January 2015 to November 2025) with documented, repeatable methods.
 
-**Planned development areas**
+**Status: Phase 1 (data inspection and exploratory analysis) is in progress.**
 
-- **Data engineering:** Ingestion, source documentation, schema validation, and reproducible processing of official OSHA and BLS datasets.
-- **Statistical analysis:** Exploratory analysis, temporal trends, and industry comparisons that respect source definitions and appropriate statistical denominators.
-- **Incident narrative analysis:** Text analysis and evaluated machine learning baselines where available labels and data quality support valid evaluation.
-- **Evidence intelligence:** A structured registry of authoritative sources and prevention control options informed by the hierarchy of controls.
-- **Decision-support interface:** An interactive dashboard for incident exploration, analytical findings, evidence, and methodological limitations.
+**Completed so far**
 
-**Project status:** Product design and development plan established. Implementation, testing, and validation will be documented as the project progresses.
+- **Data documentation:** snapshot, checksum, coverage and loading rules recorded in the repository.
+- **Data engineering:** validation and cleaning script, with the working dataset stored as Parquet.
+- **Data-quality review:** repeated identifiers, inconsistent whitespace in categories, an undocumented jurisdiction flag, coordinate errors and event-label inconsistencies, each documented with its handling decision.
+- **First analyses:** most frequent reported event types, and a like-for-like January to November comparison across years.
 
-The project is guided by three principles: analytical traceability, methodological transparency, and responsible interpretation. Prevention control options are intended to support expert review, not replace workplace-specific risk assessment or qualified HSE judgment.
+**Next:** frequencies of events, injury types and body parts by code; a yearly trend figure; industry (NAICS) analysis.
+
+**Planned, depending on results:** incident narrative analysis, a registry of authoritative prevention guidance, and an interactive dashboard.
+
+Reported counts are not injury rates, and this work does not replace workplace-specific risk assessment or qualified HSE judgment.
+
+[Repository](https://github.com/sahand-abdollahpour/worksafe-evidence-intelligence) · [Data notes](https://github.com/sahand-abdollahpour/worksafe-evidence-intelligence/blob/main/docs/data_notes.md)
 
 ## Research Interests
 
-- Occupational Health and Safety
 - Occupational Injury and Incident Analysis
 - Ergonomics and Human–Machine Fit
-- Resilience Engineering and Safety Culture
 - Human Factors and Workplace Risk Assessment
-- Emergency Preparedness
+- Resilience Engineering and Safety Culture
 - Applied Statistics and Data Science for Safety Research
-- Evidence-Informed Prevention and Decision Support
+- Evidence-Informed Prevention
 
 ## Technical Development
 
-I am developing practical skills in the following areas through structured learning and project-based application:
+**Used in the project so far:** Python, Pandas, Matplotlib, Jupyter Notebook, Parquet and PyArrow, Git and GitHub, written project documentation.
 
-- **Programming and data analysis:** Python, Pandas, and NumPy
-- **Data querying:** SQL and analytical data workflows
-- **Research methods:** Exploratory data analysis, statistical reasoning, and data quality assessment
-- **Reproducible development:** Git, GitHub, project documentation, and testing practices
-
-Additional tools and methods will be documented as they are applied and demonstrated in my projects.
+**Learning next:** SQL, statistical methods for research, scikit-learn, and basic natural language processing.
 
 ## Working Principles
 
-- **Reproducibility:** Make analytical methods and workflows transparent and repeatable.
-- **Traceability:** Document data sources, definitions, transformations, and analytical decisions.
-- **Statistical integrity:** Distinguish reported counts, published rates, estimates, and uncertainty.
-- **Evidence-based practice:** Link prevention control options to credible sources and document their limitations.
-- **Responsible use of models:** Evaluate model performance and avoid unsupported claims about causality or individual risk.
-- **Continuous learning:** Develop technical skills through practical work, critical evaluation, and documented improvement.
+- **Reproducibility:** make analytical methods and workflows transparent and repeatable.
+- **Traceability:** document data sources, definitions, transformations, and decisions.
+- **Statistical integrity:** distinguish reported counts, published rates, estimates, and uncertainty.
+- **Honest limits:** document open questions and avoid unsupported claims about causality or individual risk.
+- **Continuous learning:** build skills through practical work, critical evaluation, and documented improvement.
 
 ---
 
-*Focused on connecting occupational safety expertise with transparent, reproducible, and evidence-informed analysis.*
+*Connecting occupational safety expertise with transparent, reproducible, and evidence-informed analysis.*
