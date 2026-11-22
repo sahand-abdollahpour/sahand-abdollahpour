@@ -3,7 +3,7 @@ Sahand Abdollahpour
 HSE Professional | Occupational Safety | Ergonomics | Applied Data Science
 
 [LinkedIn](https://www.linkedin.com/in/sahand-abdollahpour-9b57291b9/) ·
-[Google Scholar](https://scholar.google.com/citations?user=WOxhmJUAAAAJ&hl=en)
+[Google Scholar](https://scholar.google.com/citations?user=WOxhmJUAAAAJ&hl=en) .
 [WorkSafe Evidence Intelligence](https://github.com/sahand-abdollahpour/worksafe-evidence-intelligence)
 
 ---
